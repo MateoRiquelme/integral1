@@ -1,0 +1,172 @@
+@media (max-width: 1182px) {
+  #novedades {
+    padding: 0;
+  }
+
+  .info-cards {
+    flex-direction: column;
+  }
+
+  .Titulo-R {
+    transform: rotate(0deg);
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 876px) {
+  header {
+    background-color: #111111;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbutton {
+    display: none;
+  }
+
+  .menu-hamburguesa {
+    display: inline-block;
+    margin: auto;
+  }
+
+  .container-img {
+    margin: auto;
+    display: flex;
+  }
+  .menu-hamburguesa .menu-hamburguesa ul {
+    background-color: #282828;
+  }
+
+  .menu-hamburguesa label {
+    background-color: #282828b4;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 2px 2px;
+  }
+}
+
+@media (max-width: 870px) {
+  .tercerbutton {
+    display: none;
+  }
+
+  #somvlrt {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  #somvlrt h2 {
+    font-size: 40px;
+  }
+
+  .post {
+    flex-direction: column;
+  }
+
+  .info-post p {
+    flex-direction: column;
+  }
+
+  .video {
+    width: 450px;
+    margin-top: 10px;
+    height: 300px;
+  }
+
+  .rari-button {
+    display: none;
+  }
+
+  #tus-agentes {
+    background: none;
+    background-color: #ff4656;
+    /* background: rgb(255, 70, 86);
+    background: linear-gradient(
+      101deg,
+      rgba(255, 70, 86, 1) 46%,
+      rgba(15, 25, 35, 1) 100% */
+
+    background: rgb(255, 70, 86);
+    background: radial-gradient(
+      circle,
+      rgba(255, 70, 86, 1) 70%,
+      rgb(250, 250, 210) 100%
+    );
+  }
+
+  .titulo-agentes {
+    color: #212121;
+  }
+
+  .p-weapon,
+  .better-weapon {
+    align-self: center;
+    color: #212121;
+  }
+
+  .p-weapon {
+    width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  #rvlcn {
+    height: 300px;
+  }
+
+  .video {
+    width: 350px;
+    margin-top: 5px;
+    height: 220px;
+  }
+
+  .informacion img {
+    width: 100%;
+  }
+
+  #tus-mapas {
+    background: url(valorant/breaze.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(10.15s);
+  }
+
+  .map-items {
+    padding-left: 20px;
+  }
+
+  .titulo-mapas {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #050505;
+  }
+  .subtitulo-mapas {
+    font-size: 17px;
+    color: #080808;
+  }
+
+  .p-mapas {
+    font-size: 12px;
+    width: 250px;
+    color: #030303;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .first {
+    font-size: 15px;
+  }
+
+  .redes i {
+    margin-right: 5px;
+  }
+}
