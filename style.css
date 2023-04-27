@@ -91,6 +91,7 @@ header {
   display: flex;
   position: absolute;
   right: 10px;
+  padding-right: 13px;
 }
 
 .menu-hamburguesa ul {
@@ -119,6 +120,7 @@ header {
 
 .buttons {
   gap: 15px;
+  width: 250px;
 }
 .navbar-list a {
   color: #f9f9f9;
@@ -368,10 +370,12 @@ header {
 
 .info-cards {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: flex-start;
   justify-content: space-around;
-  gap: 100px;
+  gap: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .Titulo-R {
@@ -395,6 +399,7 @@ header {
   z-index: 1;
   /* align-items: center;
   ]justify-content: center; */
+  width: 100%;
 }
 
 .fecha {

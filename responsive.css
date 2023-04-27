@@ -275,6 +275,9 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .codes {
+    width: 100%;
+  }
 }
 @media (max-width: 326px) {
   .navbar {
