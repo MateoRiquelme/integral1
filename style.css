@@ -120,7 +120,7 @@ header {
 
 .buttons {
   gap: 15px;
-  width: 250px;
+  display: flex;
 }
 .navbar-list a {
   color: #f9f9f9;
@@ -147,6 +147,7 @@ header {
     rgba(255, 66, 73, 1) 61%,
     rgba(255, 116, 98, 1) 100%
   );
+  width: 110px;
   border-radius: 10px;
   padding: 8px 16px;
   display: flex;
