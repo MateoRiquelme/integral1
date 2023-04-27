@@ -14,7 +14,7 @@ header {
   position: sticky;
   z-index: 100;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 60px;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 #listbox {
-  width: 100vw;
+  width: 100%;
   left: 0;
   position: absolute;
   display: flex;
@@ -149,19 +149,28 @@ header {
 .navbutton a {
   color: #080808;
 }
+
 body {
   background-image: url("fondo-inicioregister.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
 }
 
 .form-register {
   width: 400px;
-  background: transparent;
+  /* background: transparent; */
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 250px;
   border-radius: 4px;
   font-family: "calibri";
   color: white;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   box-shadow: 7px 13px 37px #000;
   /* display: flex;
   gap: 10px;
@@ -173,6 +182,15 @@ body {
 .form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.753);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24303b;
+  border-radius: 100px;
+  border-color: #111111;
+  width: 200px;
+  margin-left: 70px;
 }
 
 .control {
@@ -200,7 +218,7 @@ body {
 }
 
 .form-register a:hover {
-  color: white;
+  color: rgb(255, 254, 254);
   text-decoration: underline;
 }
 
@@ -217,6 +235,10 @@ body {
 
 .boton:hover {
   background-color: #e01828;
+}
+
+.decoration-line:hover {
+  text-decoration: underline;
 }
 
 .final {

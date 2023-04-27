@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Contactanos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="valorant/logo.png" alt="" />
+
+        <ul class="navbar-list">
+          <li>
+            <a href="../index.html#tus-agentes"><span> AGENTES</span></a>
+          </li>
+          <li>
+            <a href="../index.html#novedades"><span> NOVEDADES</span></a>
+          </li>
+          <li>
+            <a href="../index.html#somvlrt"><span> MODOS DE JUEGO</span></a>
+          </li>
+          <li>
+            <a href="contacto.html"> <span> CONTACTANOS</span></a>
+          </li>
+        </ul>
+        <ul class="buttons">
+          <button class="navbutton">
+            <a href="login-register/login.html"> Iniciar Sesion</a>
+          </button>
+          <button class="navbutton">
+            <a href="login-register/register.html"> Registrate</a>
+          </button>
+        </ul>
+
+        <div class="menu-hamburguesa">
+          <input type="checkbox" id="toggle-menu" />
+          <label for="toggle-menu">☰</label>
+          <ul id="listbox">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">novedades</a></li>
+            <li><a href="#">agentes</a></li>
+            <li><a href="#">Modo de juego</a></li>
+            <li><a href="#">Contactanos</a></li>
+            <li><a href="login-register/login.html">Iniciar sesion</a></li>
+            <li><a href="login-register/register.html">registrate</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="contac">
+      <section id="contacto">
+        <form class="formFirst" action="">
+          <h4>Contactanos</h4>
+          <input
+            class="control"
+            type="text"
+            name="nombres"
+            id="nombres"
+            placeholder="Ingrese su Usuario o correo electronico"
+          />
+          <input
+            type="tel"
+            class="control"
+            type="number"
+            name="numTel"
+            id="numTel"
+            placeholder="Ingrese su numero de telefono"
+          />
+          <div class="cajaConsulta">
+            <p>consulta</p>
+            <label class="consultBox"
+              >Ingrese aquí su consulta o comentario:</label
+            >
+            <textarea
+              name="consulta"
+              class="consulta"
+              cols="30"
+              rows="10"
+              type="text"
+              name="text"
+            ></textarea>
+          </div>
+        </form>
+
+        <div class="ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5730.665237656397!2d-57.53737936488267!3d-25.20008918904313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da5bc68943cb3%3A0x65c1cea871e1b0c!2sMessi!5e0!3m2!1ses!2sar!4v1682193776874!5m2!1ses!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

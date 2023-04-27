@@ -10,6 +10,10 @@
   list-style-type: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -22,7 +26,7 @@ header {
   position: sticky;
   z-index: 100;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 60px;
 }
 
@@ -42,7 +46,7 @@ header {
 }
 
 #listbox {
-  width: 100vw;
+  width: 100%;
   left: 0;
   position: absolute;
   display: flex;
@@ -158,10 +162,6 @@ header {
   color: #080808;
 }
 
-main {
-  max-width: 1200px;
-}
-
 #hero {
   min-height: 100vh;
   position: relative;
@@ -173,7 +173,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -193,6 +193,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 1;
 }
@@ -208,7 +209,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
+  text-align: center;
   color: #f9f9f9;
   font-size: 20px;
 }
@@ -362,7 +363,7 @@ main {
   flex-direction: column;
   padding: 40px 0px;
   gap: 30px;
-  max-width: 1200px;
+  width: 100%;
 }
 
 .info-cards {
@@ -370,7 +371,7 @@ main {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  gap: 40px;
+  gap: 100px;
 }
 
 .Titulo-R {
@@ -387,7 +388,7 @@ main {
 .cards {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -396,12 +397,10 @@ main {
   ]justify-content: center; */
 }
 
-.cards:hover .trans {
-}
 .fecha {
   display: flex;
   gap: 60px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .fecha p {
@@ -411,8 +410,8 @@ main {
 }
 
 .trans {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 170px;
   background-color: #ff4655;
   position: absolute;
   top: 0;
@@ -430,8 +429,8 @@ main {
 }
 
 .cards img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 170px;
   object-fit: cover;
 }
 
@@ -442,7 +441,8 @@ main {
 }
 
 .center-card h2 {
-  width: 300px;
+  width: 100%;
+  text-align: center;
 }
 
 /* post-cards */
@@ -460,17 +460,17 @@ main {
   background-position: center;
   background-size: 100vw;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 .tercerbutton {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-left: 13%;
-  padding-top: 5%;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding-left: 13%;
+  padding-top: 5%; */
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 43%;
+  height: 80%;
 }
 
 #somvlrt {
@@ -503,7 +503,7 @@ main {
 .exp-game {
   width: 100%;
 
-  position: relative;
+  /* position: relative; */
 
   /* object-fit: cover; */
   /* justify-content: center;
@@ -532,8 +532,8 @@ main {
 
 .video {
   position: relative;
-  width: 600px;
-  height: 500px;
+  max-width: 600px;
+  max-height: 500px;
   margin-top: 100px;
 }
 
@@ -547,8 +547,8 @@ main {
   left: 40%;
   bottom: 50%;
   right: 50%; */
-  top: 34%;
-  left: 50%;
+  top: 44%;
+  left: 49%;
   transform: translate(-50%, -50%);
 
   background-color: #ff46567a;
@@ -706,8 +706,8 @@ main {
   background: url(valorant/Tus-agentes1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100vw;
-  width: 100vw;
+  background-size: 100%;
+  width: 100%;
   height: 100vh;
   z-index: 2;
   background-repeat: no-repeat;
@@ -716,16 +716,18 @@ main {
 
 .items {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   flex-direction: column;
-  gap: 30px;
+  text-align: center;
+  gap: 100px;
 }
 
 .titulo-agentes {
   font-size: 50px;
   padding-top: 5px;
   color: #f9f9f9;
+  padding-top: 10px;
 }
 
 .better-weapon {
@@ -745,6 +747,12 @@ main {
   margin-left: 40px;
   color: #dad5d5ef;
   font-weight: bold;
+}
+
+.button3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .btn-3 {
@@ -893,10 +901,9 @@ main {
   background: url(valorant/tus-mapas2.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100vw;
-  width: 100vw;
+  background-size: 100%;
+  width: 100%;
   height: 100vh;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -907,6 +914,7 @@ main {
   flex-direction: column;
   gap: 30px;
   padding-left: 50px;
+  text-align: center;
 }
 
 .titulo-mapas {
@@ -923,6 +931,7 @@ main {
 .p-mapas {
   font-size: 15px;
   width: 210px;
+  margin: 0 auto;
   letter-spacing: 2px;
   font-weight: bold;
   color: #768079;
@@ -938,6 +947,7 @@ main {
   align-items: center;
   background-color: black;
   gap: 1rem;
+  text-align: center;
 }
 
 .first {
@@ -1012,4 +1022,100 @@ main {
 
 .esbr ul {
   color: #f9f9f9;
+}
+
+.contac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  background-image: url(valorant/contactoBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-position: center;
+}
+
+#contacto {
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  box-shadow: 7px 13px 37px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 850px;
+  gap: 20px;
+  background-color: rgba(42, 43, 43, 0.4);
+  border-radius: 5px;
+}
+
+.formFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  width: 45%;
+  gap: 5px;
+}
+
+.formFirst h4 {
+  display: flex;
+  justify-content: flex-start;
+  color: #ffffff;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.formFirst input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #070707;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.cajaConsulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cajaConsulta p {
+  color: #fbfcfd;
+  font-size: 30px;
+}
+
+.consultBox {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.consulta {
+  resize: none;
+  width: 300px;
+  font-size: 19px;
+  border: 1px solid #000;
+}
+
+.ubicacion iframe {
+  width: 400px;
+  height: 300px;
+}
+
+#contacto .formFirst input,
+textarea {
+  cursor: text;
 }

@@ -11,6 +11,10 @@
     transform: rotate(0deg);
     margin-top: 30px;
   }
+  .ubicacion iframe {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 @media (max-width: 876px) {
@@ -53,6 +57,18 @@
 }
 
 @media (max-width: 870px) {
+  .Titulo-R {
+    width: 100%;
+  }
+
+  .informacion img {
+    width: 600px;
+  }
+
+  #rvlc {
+    margin: 0 auto;
+  }
+
   .tercerbutton {
     display: none;
   }
@@ -87,6 +103,9 @@
   }
 
   #tus-agentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: none;
     background-color: #ff4656;
     /* background: rgb(255, 70, 86);
@@ -109,13 +128,30 @@
 
   .p-weapon,
   .better-weapon {
-    align-self: center;
     color: #212121;
   }
-
-  .p-weapon {
-    width: 300px;
+  .better-weapon {
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
   }
+  .p-weapon {
+    width: 330px;
+    letter-spacing: 3px;
+  }
+  #contacto {
+    flex-direction: column;
+    width: 100%;
+  }
+  .ubicacion iframe {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+.button3 {
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -168,5 +204,115 @@
 
   .redes i {
     margin-right: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-register {
+    width: 300px;
+  }
+
+  .form-register h4 {
+    font-size: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 120px;
+    padding-left: 10px;
+  }
+
+  .control {
+    font-size: 13px;
+  }
+
+  .final {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .post {
+    width: 100vw;
+  }
+
+  .Titulo-R {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+  .titulo-agentes {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .better-weapon {
+    font-size: 15px;
+  }
+
+  .p-weapon {
+    font-size: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    letter-spacing: 2px;
+  }
+
+  .exp-game {
+    width: 330px;
+  }
+
+  .video {
+    width: auto;
+  }
+
+  #tus-mapas {
+    width: 0 auto;
+  }
+
+  .button-maps {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 326px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .pres-videos {
+    width: 100%;
+  }
+
+  #rvlcn {
+    background-size: 100%;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .exp-game {
+    width: 320px;
+  }
+
+  #tus-agentes {
+    width: 100%;
+  }
+
+  #tus-mapas {
+    width: 100%;
+  }
+
+  .footer-container {
+    width: 100%;
+  }
+  .first a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .codes a {
+    font-size: 15px;
   }
 }
