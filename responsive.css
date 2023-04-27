@@ -149,11 +149,6 @@
   }
 }
 
-.button3 {
-  justify-content: center;
-  align-items: center;
-}
-
 @media (max-width: 600px) {
   #rvlcn {
     height: 300px;
@@ -276,7 +271,7 @@
     align-items: flex-start;
   }
   .codes {
-    width: 100%;
+    width: 50%;
   }
 }
 @media (max-width: 326px) {
@@ -295,7 +290,7 @@
   }
 
   .exp-game {
-    width: 320px;
+    width: 300px;
   }
 
   #tus-agentes {

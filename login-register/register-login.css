@@ -107,6 +107,7 @@ header {
 
 .buttons {
   gap: 15px;
+  display: flex;
 }
 .navbar-list a {
   color: #f9f9f9;

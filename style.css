@@ -730,7 +730,6 @@ header {
 
 .titulo-agentes {
   font-size: 50px;
-  padding-top: 5px;
   color: #f9f9f9;
   padding-top: 10px;
 }
@@ -739,7 +738,9 @@ header {
   display: flex;
   justify-content: center;
   align-self: flex-start;
-  margin-left: 40px;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 10px;
   color: #f9f9f9e0;
 }
 
@@ -754,9 +755,10 @@ header {
   font-weight: bold;
 }
 
-.button3 {
+.button3,
+.btn3 {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
